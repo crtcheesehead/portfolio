@@ -19,47 +19,21 @@ nav{
     margin: 0;
     position: fixed;
     top: 100px;
+    text-align: center;
+    
 }
 
 nav ul{
-    list-style-type: none;
     display: inline-block;
+
 }
 
 nav ul li{
-    margin: 0;
     display: inline-block;
-    height: 2em;
-    width: 125px;
-    text-align: center;
-    padding-bottom: 1em;
-
+    width: 275px;
+    height: 100%;
 }
 
-nav ul li:hover{
-    color: crimson;
-    background-color: aliceblue;
-}
-
-nav ul ul{
+nav ul li ul{
     display: none;
-    width: 100%;
-
-}
-
-nav ul li li:hover{
-    color: crimson;
-    background-color: aliceblue;
-}
-
-nav ul li:hover ul{
-    color: aliceblue;
-    background-color: crimson;
-    display: block;
-    padding: 0;
-}
-
-nav ul ul li{
-    width: 100%;
-    float: none;
 }
